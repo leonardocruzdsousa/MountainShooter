@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de6461ea-8f88-49d8-b6f6-7e81635a81e4" name="Changes" comment="Creating mediator pattern. Enemies destruction">
-      <change afterPath="$PROJECT_DIR$/code/EnemyShot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/PlayerShot.py" afterDir="false" />
+    <list default="true" id="de6461ea-8f88-49d8-b6f6-7e81635a81e4" name="Changes" comment="Creating player shot&#10;Creating enemy shot">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Entity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/EntityMediator.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/EntityMediator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/enemy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,18 +55,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Run",
-    "Python.menu.executor": "Run",
-    "Python.player.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "feature__level",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.menu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.player.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature__level&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\leona\OneDrive\Faculdade\Linguagem de programação aplicada\asset" />
@@ -156,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754247034425</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Creating player shot&#10;Creating enemy shot">
+      <option name="closed" value="true" />
+      <created>1754250073038</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1754250073038</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +185,7 @@
     <MESSAGE value="Fixing imports in level.py file" />
     <MESSAGE value="Creating Players and Enemies&#10;Moving players and Enemies" />
     <MESSAGE value="Creating mediator pattern. Enemies destruction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating mediator pattern. Enemies destruction" />
+    <MESSAGE value="Creating player shot&#10;Creating enemy shot" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating player shot&#10;Creating enemy shot" />
   </component>
 </project>
